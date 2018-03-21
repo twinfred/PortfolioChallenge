@@ -13,7 +13,7 @@
     padding: 10px 0px 10px 10px;
 }
 #content {
-    padding: 20px;
+    padding: 20px 0px 0px 0px;
 }
 #footer {
     background-color: #f8f8f8;
@@ -29,26 +29,33 @@ h1 {
     padding-top: 5px;
     color: black;
 }
-h2 {
-    font-size: 20px;
+h2, h3, h4 {
     font-family: Helvetica, sans-serif;
     font-weight: bold;
+}
+h2, h3 {
+    font-size: 20px;
+}
+h2 {
     display: inline-block;
     width: 44%;
     vertical-align: 35%;
     text-align: right;
     color: black;
 }
-h3 {
-    font-size: 20px;
-    font-family: Helvetica, sans-serif;
-    font-weight: bold;
+h3, h4 {
     color: white;
     padding-top: 12px;
     padding-left: 18px;
 }
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 18px;
+}
 p {
-    font-size: 16px;
+    font-size: 15px;
     font-family: Helvetica, sans-serif;
     display: block;
     margin-bottom: 10px;
@@ -57,30 +64,65 @@ a {
     text-decoration: underline;
     color: black;
 }
+img {
+    width:100%;
+}
 #image-frame {
     background-color: #c0c0c0;
     height: 303px;
-    width: 48%;
+    width: 46%;
     display: inline-block;
     padding: 5px;
     vertical-align: top;
-}
-#primary-photo {
-    width:100%;
+    margin-left: 20px;
 }
 #content-top-box {
     background-color: #ede5ec;
     height: 313px;
-    width: 48%;
+    width: 46%;
     display: inline-block;
     vertical-align: top;
     margin-left: 22px;
+    margin-right: 20px;
 }
-.box-head {
+.content-body-box {
+    margin-right: 14px;
+}
+.content-body-box-last, .content-body-box  {
+    height: 620px;
+    background-color: #ede5ec;
+    display: inline-block;
+    vertical-align: top;
+}
+.box-head, .tech-head {
     background-color: #908f9a;
-    height: 45px;
     width: 100%;
 }
-.text-container {
+.box-head {
+    height: 45px;
+}
+.tech-head {
+    height: 40px;
+}
+.text-container, .text-container-body {
     padding: 10px;
+    line-height: 120%;
+}
+.text-container-body{
+    text-align: justify;
+    height: 175px;
+}
+#site-box-main {
+    padding: 20px;
+}
+.site-photo, .content-body-box-last, .content-body-box  {
+    width: 307px;
+}
+.tech-logo-box {
+    padding: 10px 0px 10px 10px;
+}
+.tech-logo {
+    width: 50px;
+    display: inline-block;
+    margin: 0px 5px 8px 0px;
 }
