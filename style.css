@@ -8,7 +8,7 @@
     margin: 0px auto;
 }
 #header {
-    background-color: #f8f8f8;
+    background-color: #f7f7f7;
     height: 60px;
     padding: 10px 0px 10px 10px;
 }
@@ -16,8 +16,9 @@
     padding: 20px 0px 0px 0px;
 }
 #footer {
-    background-color: #f8f8f8;
-    height: 60px;
+    text-align: center;
+    background-color: #f7f7f7;
+    height: 70px;
 }
 h1 {
     font-size: 40px;
@@ -67,6 +68,16 @@ a {
 img {
     width:100%;
 }
+button {
+    border-radius: 7px;
+    border: 1px #2a5241 solid;
+    background-color: #3f7d61;
+    box-shadow: 3px 3px 10px gray;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+}
 #image-frame {
     background-color: #c0c0c0;
     height: 303px;
@@ -89,7 +100,7 @@ img {
     margin-right: 14px;
 }
 .content-body-box-last, .content-body-box  {
-    height: 620px;
+    height: 635px;
     background-color: #ede5ec;
     display: inline-block;
     vertical-align: top;
@@ -104,13 +115,18 @@ img {
 .tech-head {
     height: 40px;
 }
+.text-container, .text-container-body, .text-container-last {
+    line-height: 120%;
+}
 .text-container, .text-container-body {
     padding: 10px;
-    line-height: 120%;
 }
 .text-container-body{
     text-align: justify;
     height: 175px;
+}
+.text-container-last {
+    padding: 10px 10px 0px 10px;
 }
 #site-box-main {
     padding: 20px;
@@ -125,4 +141,16 @@ img {
     width: 50px;
     display: inline-block;
     margin: 0px 5px 8px 0px;
+}
+.body-button {
+    text-align: center;
+}
+.contact-logo {
+    width: 20px;
+    display: inline;
+    vertical-align: -25%;
+    margin-left: 5px;
+}
+.contact-link {
+    font-style: italic;
 }
